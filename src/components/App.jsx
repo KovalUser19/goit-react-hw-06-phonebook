@@ -6,21 +6,6 @@ import css from "./App.module.css"
 
 export const App = () => {
 
-  /*  useEffect(() => {
-   const localData = localStorage.getItem('contacts')
-    if (localData && JSON.parse(localData).length > 0) {
-    setContacts(JSON.parse(localData))
-    }
-    return () => {
-      localStorage.removeItem('contacts')
-    }
-},[])
-
-  useEffect(() => {
-    localStorage.setItem('contacts', JSON.stringify(contacts))
-  }, [contacts]); */
-
-
    return (
     <div className={css.wrapper}>
       <h1>Phonebook</h1>
